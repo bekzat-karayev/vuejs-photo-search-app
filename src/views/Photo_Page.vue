@@ -1,10 +1,7 @@
 <template>
-  <router-view />
+    Photo Page
 </template>
 
 <script setup>
 
 </script>
-
-<style scoped>
-</style>

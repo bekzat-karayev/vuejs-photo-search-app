@@ -1,10 +1,7 @@
 <template>
-  <router-view />
+    Favorites
 </template>
 
 <script setup>
 
 </script>
-
-<style scoped>
-</style>
