@@ -21,7 +21,7 @@ You are required to have [Node.js](https://nodejs.org/) installed to run the app
 
 Get your API_KEY and API_SECRET: [Unsplash API documentation](https://unsplash.com/documentation#creating-a-developer-account).
 
-Update values in the [main.js](https://github.com/bekzat-karayev/vuejs-photo-search-app/blob/master/src/main.js)
+Update values in the [main.js](https://github.com/bekzat-karayev/vuejs-photo-search-app/blob/master/src/main.js):
 
 ```
  const unsplash = new Unsplash({
