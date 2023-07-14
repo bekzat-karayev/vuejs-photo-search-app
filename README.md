@@ -1,7 +1,41 @@
-# Vue 3 + Vite
+# Photo Search App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Description
+
+This is a simple web application that allows users to search for and display images, as well as add them to the favorites.
+
+## Technologies
+* Vue JS 3.3
+* Tailwind CSS
+* Unsplash API
+
+## Prerequisites
+
+You are required to have [Node.js](https://nodejs.org/) installed to run the app locally.
 
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+## API Usage
+
+Get your API_KEY and API_SECRET: [Unsplash API documentation](https://unsplash.com/documentation#creating-a-developer-account).
+Update values in the [main.js](https://github.com/junipdewan/vue-unsplash/blob/master/src/main.js)
+
+```
+ const unsplash = new Unsplash({
+        applicationId: "API_KEY",
+        secret: "API_SECRET",
+        callbackUrl: "{CALLBACK_URL}"
+    });
+```
+
+## Build and Run
+
+```sh
+# install all dependency
+~/ npm install
+
+# run
+~/ npm run dev 
+```
