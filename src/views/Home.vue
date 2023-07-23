@@ -17,7 +17,7 @@ const randomImageUrls = ref([]);
 
 onMounted(async () => {
     const response = await axiosClient.get('/photos/random', {
-        params: {count: 9}
+        params: {count: 8}
     })
 
     randomImageUrls.value = response.data.map(image => image.urls.raw);
@@ -61,7 +61,7 @@ onMounted(async () => {
     max-width: 473px;
     height: 100%;
     max-height: 440px;
-    object-fit: cover;
+    object-fit: none;
     border-radius: 8px;
 }
 
